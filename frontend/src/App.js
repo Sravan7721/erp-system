@@ -5,8 +5,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 import Dashboard from "./components/Dashboard";
-
-import Project from './Project';
+import project from "./components/Project";
 
 import Employees from "./components/Employees";
 
