@@ -5,7 +5,6 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 import Dashboard from "./components/Dashboard";
-import project from "./components/Project";
 
 import Employees from "./components/Employees";
 
@@ -62,8 +61,6 @@ function App() {
         <Route element={<MainLayout />}>
 
           <Route path="/dashboard" element={<Dashboard />} />
-
-          <Route path="/projects" element={<project />} />
 
           <Route path="/employees" element={<Employees />} />
 
